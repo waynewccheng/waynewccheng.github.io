@@ -1,6 +1,6 @@
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">    -->
     <link rel="stylesheet" href="./demo-styles.css">    
   </head>
 
@@ -11,8 +11,15 @@
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
     <div id="card">
+<style>
+model-viewer {
+  width: 800px;
+  height: 600px;
+}
+</style>      
     <model-viewer src="./2CylinderEngine.gltf" alt="A 3D model of an astronaut" shadow-intensity="1" camera-controls="" auto-rotate="" ar="" data-js-focus-visible="" ar-status="not-presenting">    </model-viewer>
     </div>
     
   </body>
+  
 </html>
