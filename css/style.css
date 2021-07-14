@@ -1,0 +1,188 @@
+a {
+	text-decoration: underline;
+	color: #D90000;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: #D90000;
+	color: #FFFFFF;
+}
+
+#main_container {
+    height: 250px;
+    width: 550px;
+	border: solid 2px #ddd;
+	background-color: white;
+	font-family: 'trebuchet ms', helvetica, sans-serif;
+}
+
+#title_frame {
+  width: 100%;
+  text-align: center;
+  border-bottom: solid 1px #ddd;
+  background-color: #f0f0f0;
+  font-size: 14pt;
+  padding: 3pt 0pt;
+}
+
+#d15_main {
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  font-size: 10pt;
+}
+
+#droppable_container {
+    margin: 25px auto;
+	font-size: 0.1em;
+}
+
+#spotsline {
+	margin: 15px auto;
+	height: 48px;
+	width: 498px;
+	background: #aaa;
+	position: relative;
+}
+
+#spotsline_inner {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	height: 42px;
+	width: 492px;
+	background: #666;
+}
+
+.draggable {
+    width: 22px;
+    height: 22px;
+    cursor: move;
+    position: absolute;
+	z-index: 10;
+}
+  
+.droppable {
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    position: absolute;
+}
+  
+.droppable.hover {
+    background: #ff0;
+}
+
+#resultform {
+	text-align: center;
+	margin-top:80px;
+}
+
+#detailedresultform {
+	position: absolute;
+	top: 220px;
+	left: 300px;
+}
+
+#canvas {
+	position: absolute;
+	top: 60px;
+	left: 70px;
+	width: 160px;
+	height: 160px;
+}
+
+#graph_text {
+	position: absolute;
+	top: 70px;
+	left: 250px;
+	width: 290px;
+	height: 160px;
+	font-size: 11pt;
+	font-family: Times, serif;
+}
+
+#eplanation_text {
+	margin-top: 4px;
+	font-size: 10pt;
+	font-family: Times, serif;
+}
+
+#result_container {
+	margin-top: 20px;
+}
+
+#result_text {
+	text-align: center;
+	margin-top: 16px;
+	font-size: 13pt;
+	font-family: Times, serif;
+}
+
+#severity_box {
+	margin-top: 8px;
+	margin-left: 50px;
+	position: relative;
+	width: 440px;
+	height: 25px;
+	background-color: #aaa;
+}
+
+#severity_box_inner {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 434px;
+	height: 19px;
+	background-color: #fff;
+}
+
+#severity_range {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 19px;
+	background-color: #87cdfa;
+}
+
+#severity_text {
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	width: 440px;
+	text-align: center;
+	font-size: 9pt;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#severity_caption {
+	position: relative;
+	top: 23px;
+	font-size: 8pt;
+}
+
+#slightly_cb {
+	position:absolute;
+	top: 0px;
+	left: 50px;
+}
+
+#moderate_cb {
+	position:absolute;
+	top: 0px;
+	left: 200px;
+}
+
+#strong_cb {
+	position:absolute;
+	top: 0px;
+	left: 350px;
+}
+
+#tag_email {
+	margin-top:18px;
+	margin-left:10px;
+}
